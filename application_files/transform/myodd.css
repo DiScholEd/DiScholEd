@@ -1,0 +1,454 @@
+/* Generated stylesheet. Do not edit. */
+/* Global styles */
+
+.simple_allcaps { text-transform: uppercase; }
+.simple_blackletter { font-family: fantasy; }
+.simple_bold { font-weight: bold; }
+.simple_bottombraced { padding-bottom: 2pt; border-bottom: dashed gray 2pt; }
+.simple_block { display:block; }
+.simple_boxed { padding: 2pt; border: solid black 1pt; }
+.simple_centre { text-align: center; }
+.simple_cursive { font-family: cursive; }
+.simple_doublestrikethrough { text-decoration: line-through; color: red; }
+.simple_doubleunderline { text-decoration: underline; color: red; }
+.simple_dropcap { font-size : 6em; font-family: cursive; font-weight : bold; vertical-align: top; height: 1em; line-height: 1em; float : left; width : 1em; color : #c00; margin: 0em; padding: 0px; }
+.simple_float { float:right; display: block; font-size: smaller; clear: right; padding: 4pt; width: 15%; }
+.simple_hyphen {  }
+.simple_inline { display:inline; }
+.simple_italic { font-style: italic; }
+.simple_justify { text-align: justify; }
+.simple_larger { font-size: larger; }
+.simple_left { text-align: left; }
+.simple_leftbraced { padding-left: 2pt; border-left: dotted gray 2pt; }
+.simple_letterspace { letter-spacing: 0.5em; }
+.simple_literal { font-family:monospace; white-space:pre; }
+.simple_normalstyle { font-style:roman; }
+.simple_normalweight { font-weight:normal; }
+.simple_right { text-align: right; }
+.simple_rightbraced { padding-right: 2pt; border-right: dotted gray 2pt; }
+.simple_rotateleft { -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+.simple_rotateright { -webkit-transform: rotate(-90deg); transform: rotate(-90deg); }
+.simple_rules { border: 1px solid black; padding: 2px;border-collapse:collapse;border-spacing:0; }
+.simple_smallcaps { font-variant: small-caps; }
+.simple_smaller { font-size: smaller; }
+.simple_strikethrough { text-decoration: line-through; }
+.simple_subscript { vertical-align: bottom; font-size: smaller; }
+.simple_superscript { vertical-align: super; font-size: smaller; }
+.simple_topbraced { padding-top: 2pt; border-top: dotted gray 2pt; }
+.simple_typewriter { font-family:monospace; }
+.simple_underline { text-decoration: underline; }
+.simple_wavyunderline { text-decoration: underline; text-decoration-style: wavy; }
+
+/* Model rendition styles */
+
+.tei-item1 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-item2 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-item3 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-item4 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-item8 { cursor: pointer; font-weight: lighter; }
+.tei-item10 { list-style-type: disc; }
+.tei-teiHeader9 {  }
+.tei-teiHeader10 { font-size: 20px; }
+.tei-teiHeader13:before { content:"Sender: " }
+.tei-teiHeader14:before { content:'Recipient: ' }
+.tei-teiHeader15:before { content:'Author: ' }
+.tei-teiHeader16:before { content:'Time and place of writing: ' }
+.tei-teiHeader18:before { content:'Number of pages: ' }
+.tei-teiHeader19:before { content:'Numbering: ' }
+.tei-teiHeader20:before { content:'State of preservation: ' }
+.tei-teiHeader21:before { content:'Appendix: ' }
+.tei-teiHeader24:before { content:'Identifier: ' }
+.tei-teiHeader25:before { content:'Collection: ' }
+.tei-teiHeader26:before { content:'Institution: ' }
+.tei-teiHeader27 { 'Acquisition:' repository ', ' institution }
+.tei-teiHeader28:before { content:'Additions: ' }
+.tei-teiHeader30:before { content:'Project: ' }
+.tei-teiHeader31:before { content:'Project manager: ' }
+.tei-teiHeader32:before { content:'Project editor: ' }
+.tei-teiHeader33:before { content:'Correction: ' }
+.tei-teiHeader34:before { content:'Hyphénation: ' }
+.tei-teiHeader35:before { content:'Licence: ' }
+.tei-teiHeader36 {  }
+.tei-teiHeader37 { font-size: 20px; }
+.tei-teiHeader40:before { content:"Sender: " }
+.tei-teiHeader41:before { content:'Recipient: ' }
+.tei-teiHeader42:before { content:'Author: ' }
+.tei-teiHeader43:before { content:'Time and place of writing: ' }
+.tei-teiHeader45:before { content:'Number of pages: ' }
+.tei-teiHeader46:before { content:'Numbering: ' }
+.tei-teiHeader47:before { content:'State of preservation: ' }
+.tei-teiHeader48:before { content:'Appendix: ' }
+.tei-teiHeader51:before { content:'Identifier: ' }
+.tei-teiHeader52:before { content:'Collection: ' }
+.tei-teiHeader53:before { content:'Institution: ' }
+.tei-teiHeader54 { 'Acquisition:' repository ', ' institution }
+.tei-teiHeader55:before { content:'Additions: ' }
+.tei-teiHeader57:before { content:'Project: ' }
+.tei-teiHeader58:before { content:'Project manager: ' }
+.tei-teiHeader59:before { content:'Project editor: ' }
+.tei-teiHeader60:before { content:'Correction: ' }
+.tei-teiHeader61:before { content:'Hyphénation: ' }
+.tei-teiHeader62:before { content:'Licence: ' }
+.tei-teiHeader63 {  }
+.tei-teiHeader66 { font-size: smaller; }
+.tei-teiHeader67 { font-size: smaller; }
+.tei-teiHeader70 {  }
+.tei-teiHeader95 {  }
+.tei-teiHeader120 {  }
+.tei-teiHeader143 { font-weight: bold; }
+.tei-supplied1:before { content: "{{"; }
+.tei-supplied1:after { content: "}}"; }
+.tei-supplied2:before { content: "{{"; }
+.tei-supplied2:after { content: "}}"; }
+.tei-milestone1 { text-align: center; }
+.tei-label2 { padding-top: 5%; }
+.tei-label4 { color: #9D9D9D; font-family: cursive; display: block; }
+.tei-label5 { font-weight: bold; }
+.tei-signed6 {  }
+.tei-signed7 { text-indent: 15%; }
+.tei-signed8 { text-align:center; }
+.tei-signed9 { text-align:left; }
+.tei-signed10 { text-align:right; }
+.tei-signed11 { color: #9D9D9D; font-family: cursive; text-align:right; }
+.tei-signed12 { color: #7F7F7F; font-family: cursive; }
+.tei-signed13 {  }
+.tei-pb2 { margin: 5%; }
+.tei-pb3 { break-after:'page'; }
+.tei-pb4 { font-size: 16px; color: #888888; cursor: pointer; display: inline; display: block; margin-right: -32px; float: right; }
+.tei-pb5 { display: block; margin-left: 4pt; color: grey; float: right; }
+.tei-pb5:before { content: '[Page '; }
+.tei-pb5:after { content: ']'; }
+.tei-anchor1 { font-size: smaller; }
+.tei-hi4 { text-align: center; }
+.tei-hi5 { font-style: italic; }
+.tei-hi6 { text-decoration: underline; }
+.tei-hi7 { text-decoration-line: underline; text-decoration-style: double; }
+.tei-hi8 { vertical-align: super; font-size: smaller; text-decoration: underline; }
+.tei-hi9 { vertical-align: super; font-size: smaller; }
+.tei-hi10 { text-align: center; }
+.tei-hi11 { font-style: italic; }
+.tei-hi12 { text-decoration: underline; }
+.tei-code { font-family:monospace }
+.tei-note8 { font-family: cursive; color: #9D9D9D; }
+.tei-note10 { text-align:center; margin:10px; }
+.tei-note11 { font-family: cursive; color: #9D9D9D; display: block; }
+.tei-note13 { text-align:center; margin:10px; }
+.tei-note14 { margin: 1em; }
+.tei-note18 { margin: 1em; }
+.tei-note21 { font-family: cursive; color: #9D9D9D; display: block; }
+.tei-note22 { margin: 1em; }
+.tei-dateline5 { text-align: right; }
+.tei-dateline6 { text-align: center; }
+.tei-dateline7 { text-align: left; }
+.tei-dateline8 { text-indent: 15%; }
+.tei-del2 {  }
+.tei-del5 {  }
+.tei-del6 { text-decoration: line-through; }
+.tei-trailer { color: green; }
+.tei-subst1 { font-family: cursive; color: #9D9D9D; }
+.tei-opener2 { margin: 5%; }
+.tei-opener3 { margin: 5%; }
+.tei-speaker1 { text-decoration: underline; }
+.tei-speaker2 { font-style:italic; }
+.tei-figDesc:before { content: '[..'; }
+.tei-figDesc:after { content: '..]'; }
+.tei-figDesc { color: grey;font-style:italic; }
+.tei-rs2 { font-weight: bold; cursor: pointer; }
+.tei-rs3 { margin-bottom: 1em; display: block; }
+.tei-rs4 { font-weight: bold; cursor: pointer; }
+.tei-rs5 { margin-bottom: 1em; display: block; }
+.tei-rs6 { font-weight: bold; cursor: pointer; }
+.tei-rs7 { margin-bottom: 1em; display: block; }
+.tei-rs8 { font-weight: bold; cursor: pointer; }
+.tei-rs9 { margin-bottom: 1em; display: block; }
+.tei-rs10 { font-weight: bold; cursor: pointer; }
+.tei-foreign { font-style:italic; }
+.tei-email { font-family:monospace }
+.tei-text1 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: flex-start; }
+.tei-text2 {  }
+.tei-floatingText { margin: 6pt; border: solid black 1pt; }
+.tei-table1 { padding: 1em; text-align: center; }
+.tei-table2 { padding: 1em; }
+.tei-address1 { text-align: right; }
+.tei-address1 { padding: 1em; }
+.tei-address2 { text-align: left; }
+.tei-address2 { padding: 1em; }
+.tei-address3 { text-align: center; }
+.tei-address3 { padding: 1em; }
+.tei-address4 { padding: 1em; }
+.tei-author1:before { content: 'By '; }
+.tei-castList { list-style: ordered; }
+.tei-l { margin-left: 1em; }
+.tei-closer1 { margin: 5%; }
+.tei-closer3 { margin-top: 1em; margin-left: 1em; margin-left: 1em; }
+.tei-p8 { margin: 0 8%; }
+.tei-p9 { margin: 0 8%; }
+.tei-p11 { text-align: right; margin: 0 8%; }
+.tei-p12 { text-align: center; margin: 0 8%; }
+.tei-p13 { text-align: left; margin: 0 8%; }
+.tei-p14 { text-indent: 15%; margin: 0 8%; }
+.tei-p15 { margin: 0 8%; }
+.tei-p18 { color: #9D9D9D; font-family: cursive; display: block; }
+.tei-p20 {  }
+.tei-q1 { margin-left: 10px; margin-right: 10px; }
+.tei-q2:before { content: '‘'; }
+.tei-q2:after { content: '’'; }
+.tei-q3 { margin-left: 10px; margin-right: 10px; }
+.tei-docTitle { font-size: larger; }
+.tei-stage { font-style: italic; }
+.tei-titlePage { text-align: center; }
+.tei-edition:before { content: 'Edition: '; }
+.tei-div1 { font-weight: 200; border-bottom: 1px solid #A0A0A0; }
+.tei-div3 { font-weight: 200; border-bottom: 1px solid #A0A0A0; }
+.tei-div5 { font-weight: 200; border-bottom: 1px solid #A0A0A0; }
+.tei-div7 { font-weight: 200; border-bottom: 1px solid #A0A0A0; }
+.tei-div9 { font-weight: 200; border-bottom: 1px solid #A0A0A0; }
+.tei-div13 { font-size: 16px; }
+.tei-div16 { border: 1px solid black; padding: 5px; }
+.tei-ref1 { padding-left: 1em; list-style: none; }
+.tei-add2 { color: #7F7F7F;; font-family: cursive; }
+.tei-add3 { color: #7F7F7F; }
+.tei-add3 { font-family: cursive; }
+.tei-add4 { color: #7F7F7F; }
+.tei-head2 { color: #9D9D9D; font-family: cursive; display: block; text-align: center; text-decoration: underline; padding: 2em; }
+.tei-head3 { text-align: center; text-decoration: underline; font-size: 16px; }
+.tei-head5 { color: #9D9D9D; font-family: cursive; display: block; text-align: center; text-decoration: underline; padding: 2em; }
+.tei-head6 { text-align: center; text-decoration: underline; font-size: 16px; }
+.tei-head8 { color: #9D9D9D; font-family: cursive; display: block; }
+.tei-head11 { font-style: italic; text-align: center; color: #A5A5A5; padding: 0.5em; }
+.tei-head12 { text-align: center; }
+.tei-head12 { padding: 1em; }
+.tei-head12 { text-decoration: underline; }
+.tei-head13 { text-align: center; }
+.tei-head13 { padding: 1em; }
+.tei-head14 { font-style: italic; }
+.tei-head15 { text-align: center; }
+.tei-head15 { text-decoration: underline; }
+.tei-head15 { padding: 1em; }
+.tei-head16 { font-weight: bold; }
+.tei-salute5 { text-align: right; }
+.tei-salute6 { text-align: center; }
+.tei-salute7 { text-align: left; }
+.tei-salute8 { text-indent: 25%; }
+.tei-salute9 { text-align: right; }
+.tei-salute10 { text-align: center; }
+.tei-salute11 { text-align: left; }
+.tei-salute12 { text-indent: 25%; }
+.tei-unclear1 { font-weight: bold; }
+.tei-unclear2 { font-weight: bold; }
+.tei-argument2 { margin-bottom: 0.5em; }
+.tei-title1 { margin-bottom: 1em; display: block; }
+.tei-title2 { font-weight: bold; cursor: pointer; }
+.tei-title13 { text-align: right; padding: 2em; }
+.tei-title13 { text-decoration: underline; }
+.tei-title14 { text-align: right; padding: 2em; }
+.tei-title15 { text-align: center; padding: 2em; }
+.tei-title15 { text-decoration: underline; }
+.tei-title16 { text-align: center; }
+.tei-title18 { text-align: right; text-decoration: underline; padding: 2em; }
+.tei-title19 { text-align: right; padding: 2em; }
+.tei-title20 { text-align: center; }
+.tei-title20 { text-decoration: underline; }
+.tei-title20 { padding: 2em; }
+.tei-title21 { text-align: center; }
+.tei-title21 { padding: 2em; }
+.tei-title29 { font-style: italic; }
+.tei-title31 { font-style: italic; }
+.tei-title33 { font-style: italic; }
+.tei-corr2:before { content: '['; }
+.tei-corr2:after { content: ']'; }
+.tei-cit1 {  }
+.tei-sic2:before { content: '{'; }
+.tei-sic2:after { content: '}'; }
+.tei-body8 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body9 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body10 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body11 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body12 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body13 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body14 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body15 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body16 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body17 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body18 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body19 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body20 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body21 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body22 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body23 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body24 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body25 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body26 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body27 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body28 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body29 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body30 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body31 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body32 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body33 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body34 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body35 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body36 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body37 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body38 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body39 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body40 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body41 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body42 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body43 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body44 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body45 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body46 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body47 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body48 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body49 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body50 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body51 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body52 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body53 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body54 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body55 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body56 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body57 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body58 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body59 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body60 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body61 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body62 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body63 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body64 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body65 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body66 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body67 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body68 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body69 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body70 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body71 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body72 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body73 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body74 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body75 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body76 { background-color: #DEE2E6; border-radius: 10px; }
+.tei-body84 {  }
+.tei-fw1 { font-weight: bold; font-size: x-large; text-align: right; }
+.tei-fw2 { font-weight: bold; font-size: x-large; text-align: center; }
+.tei-fw3 { font-weight: bold; font-size: x-large; }
+.tei-addrLine4 { text-align: right; }
+.tei-addrLine5 { text-align: center; }
+.tei-addrLine6 { text-align: left; }
+.tei-addrLine7 { text-indent: 15%; }
+.tei-addrLine8 { white-space: nowrap; }
+.tei-gap5 { color: grey; }
+.tei-gap6:before { content: '[[..'; }
+.tei-gap6:after { content: '..]]'; }
+.tei-quote1:before { content: '‘'; }
+.tei-quote1:after { content: '’'; }
+.tei-quote2 { margin-left: 10px; margin-right: 10px; }
+.tei-row1 { font-weight: bold; }
+.tei-persName4 { padding: 0; }
+.tei-persName5 { margin-bottom: 1em; display: block; }
+.tei-persName6 { font-weight: bold; cursor: pointer; }
+.tei-person1 { font-weight: bold; font-size: large; display: block; padding-top: 5%; }
+.tei-person2 { font-weight: bold; font-size: large; display: block; padding-top: 5%; }
+.tei-person5 { margin-bottom: 0.2; }
+.tei-person10:before { content: 'Education:' }
+.tei-person11:before { content: 'Affiliation:' }
+.tei-person12:before { content: 'Main event(s):' }
+.tei-person13:before { content: "Source: " }
+.tei-person14 { font-weight: bold; font-size: large; }
+.tei-person15 { font-weight: bold; font-size: large; }
+.tei-person17 { margin-bottom: 0.2; }
+.tei-person22:before { content: "Education: " }
+.tei-person23:before { content: 'Affiliation:' }
+.tei-person24:before { content: 'Main event(s):' }
+.tei-person27 { font-weight: bold; margin-bottom: 0.2em; }
+.tei-person28 { margin-bottom: 0.2; }
+.tei-person36 { margin-left: 10px; margin-bottom: 2em; }
+.tei-person37 { cursor: pointer; }
+.tei-placeName4 { font-weight: bold; cursor: pointer; }
+.tei-placeName5 { font-weight: bold; cursor: pointer; }
+.tei-placeName6 { font-weight: bold; cursor: pointer; }
+.tei-placeName7 { font-weight: bold; cursor: pointer; }
+.tei-placeName8 { font-weight: bold; cursor: pointer; }
+.tei-placeName9 { font-weight: bold; cursor: pointer; }
+.tei-placeName10 { font-weight: bold; cursor: pointer; }
+.tei-placeName11 { font-weight: bold; }
+.tei-placeName12 { font-weight: bold; }
+.tei-geo { color: #1565c0; cursor: pointer; }
+.tei-affiliation2 { list-style: inside disc; }
+.tei-affiliation3 { list-style: inside disc; }
+.tei-affiliation4 { list-style: inside disc; }
+.tei-event1 { margin-bottom: 0; font-weight: bold; font-size: large; display: block; padding-bottom: 5%; }
+.tei-event2 { cursor: pointer; font-weight: lighter; }
+.tei-event3 { list-style: inside circle; }
+.tei-event4 { list-style: inside circle; }
+.tei-place1 { font-weight: bold; margin-bottom: 0.2em; }
+.tei-place4 { margin-bottom: 2em; }
+.tei-place6 { font-size: 18px; font-weight: bold; --pb-highlight-color: blue; }
+.tei-place9 { margin-bottom: 12px; }
+.tei-place10 { content: "Source: " }
+.tei-place11 { font-size: 18px; font-weight: bold; margin-bottom: 12px; display: block; --pb-highlight-color: grey; }
+.tei-place12 { cursor: pointer; }
+.tei-place13 { cursor: pointer; }
+.tei-org1 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-org2 { margin-bottom: 0; font-weight: bold; font-size: large; }
+.tei-org8 { margin :0; }
+.tei-org9 { margin-bottom: 0; font-weight: bold; font-size: large; display: block; padding-top: 5%; }
+.tei-org10 { margin-bottom: 0; font-weight: bold; font-size: large; display: block; padding-top: 5%; }
+.tei-org18 { font-weight: bold; margin-bottom: 0.2em; }
+.tei-org19 { margin-bottom: 0.2em; }
+.tei-org20 { margin-bottom: 2em; }
+.tei-org21 { cursor: pointer; }
+.tei-orgName3 { margin-bottom: 1em; display: block; }
+.tei-orgName4 { font-weight: bold; cursor: pointer; }
+.tei-gi:before { content: '<'; }
+.tei-gi:after { content: '>'; }
+.tei-gi { background-color: #DFDFDF; }
+.tei-egXML1 { font-family: monospace; margin: 1em 0 1em .5em; padding: 1em 0 1em .5em; white-space: pre-line; background-color: #F7F7F7; }
+.tei-egXML2 { margin: 2% 0; }
+.tei-att:before { content: '@'; }
+.tei-eg { font-family: monospace; margin: 1%; padding: 1%; white-space: pre-line; background-color: #FDFDFD; }
+.tei-stamp1 { background-color: #FFFFFF; }
+.tei-term1 { margin-bottom: 1em; display: block; }
+.tei-term2 { font-weight: bold; cursor: pointer; }
+.tei-monogr1:after { content : " " }
+.tei-monogr1 { font-size: 16px; }
+.tei-monogr2:after { content : " " }
+.tei-monogr2 { font-size: 16px; }
+.tei-monogr3:after { content : " " }
+.tei-monogr3 { font-style: italic; font-size: 16px; }
+.tei-monogr4 { font-size: 16px; }
+.tei-monogr5:after { content : " " }
+.tei-monogr6:after { content : " " }
+.tei-monogr7:after { content : " " }
+.tei-monogr7 { font-style: italic; }
+.tei-monogr9:after { content : " " }
+.tei-monogr10:after { content : " " }
+.tei-monogr11:after { content : " " }
+.tei-monogr11 { font-style: italic; }
+.tei-biblStruct1 { display: block; padding-bottom: 1%; }
+.tei-biblStruct2 { cursor: pointer; display : block; padding-bottom: 1%; }
+.tei-biblStruct3 { margin-bottom: 15px; }
+.tei-imprint1:after { content : " " }
+.tei-imprint2:after { content : " " }
+.tei-imprint3:after { content : " " }
+.tei-imprint4:after { content : " " }
+.tei-imprint5:after { content : " " }
+.tei-imprint6:after { content : " " }
+.tei-imprint7:after { content : " " }
+.tei-analytic1:after { content : " " }
+.tei-analytic1 { font-size: 16px; }
+.tei-analytic2:after { content: " " }
+.tei-analytic2 { font-size: 16px; }
+.tei-analytic3 { font-style: italic; font-size: 16px; }
+.tei-analytic3:after { content: " " }
+.tei-analytic4:after { content : " " }
+.tei-analytic5:after { content: " " }
+.tei-analytic6 { font-style: italic; }
+.tei-analytic6:after { content: " " }
+.tei-metamark2 { text-align:center; }
+.tei-metamark3 {  }
+.tei-emph { text-decoration: underline; }
+.tei-handShift { display: block; font-size: smaller; }
+.tei-delSpan { display: block; font-size: smaller; }
+.tei-education { list-style: inside disc; }

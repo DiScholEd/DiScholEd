@@ -1,0 +1,24 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/images/corpus" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:56:23.505+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="corpus_bruneau.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:23.514+02:00" modified="2023-09-12T14:56:23.514+02:00" filename="corpus_bruneau.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_bi.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:23.638+02:00" modified="2023-09-12T14:56:23.638+02:00" filename="corpus_bi.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_constance_de_salm.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:23.763+02:00" modified="2023-09-12T14:56:23.763+02:00" filename="corpus_constance_de_salm.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_pec.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:23.888+02:00" modified="2023-09-12T14:56:23.888+02:00" filename="corpus_pec.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_ehri.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:24.126+02:00" modified="2023-09-12T14:56:24.126+02:00" filename="corpus_ehri.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_boeckh.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:24.244+02:00" modified="2023-09-12T14:56:24.244+02:00" filename="corpus_boeckh.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="corpus_rochlitz.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:24.364+02:00" modified="2023-09-12T14:56:24.364+02:00" filename="corpus_rochlitz.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,114 @@
+{
+	"title": {
+		"official": "Ediciones científicas digitales"
+	},
+	"browse": {
+		"date": "Fecha"
+	},
+	"menu": {
+		"start": "Inicio",
+    	"about" : "Acerca de",
+		"doc": "Documentos",
+		"credit": "Créditos",
+		"documentation": {
+			"title": "Documentación",
+			"encoding": "Guía de codificación",
+			"application": "Documentación de la aplicación",
+			"teipublisher": "Documentación de TEI Publisher"
+		},
+		"footer": "Esta aplicación, creada con TEI Publisher, fue desarrollada en el marco del proyecto DAHN, una asociación entre Inria, la Universidad de Le Mans y EHESS financiado por el MESRI, que tiene como objetivo establecer una cadena de edición numérica científica para colecciones de archivos. Esta aplicación está alojada en Humanum."
+	},
+	"collection": {
+		"title": "Colecciones",
+		"corpus": {
+			"title": "Textos editados",
+			"desc": "Carpeta con las cartas y textos del corpus."
+		},
+		"index": {
+			"title": "Índice",
+			"desc": "Organizaciones, personas, lugares y publicaciones mencionados en la edición, presentados en cuatro índices distintos."
+		},
+		"history": {
+			"title": "Historia",
+			"desc": "Más información sobre el contexto y el contenido de la edición."
+		},
+		"about": {
+			"title": "Acerca de",
+			"desc": "Más información sobre las instituciones asociadas, los financiadores, así como los equipos de desarrollo y edición."
+		},
+		"pec": {
+			"title": "Correspondencia de Estournelles de Constant",
+			"desc": "Esta carpeta contiene el corpus y los índices de la correspondencia de Paul d'Estournelles de Constant, así como la historia del corpus e información sobre el proyecto."
+		},
+		"intellectuelsberlinois": {
+			"title": "Cartas y textos: El Berlín intelectual de los años 1800",
+			"desc": "Esta carpeta contiene el corpus y los índices de las cartas y textos de los intelectuales berlineses de 1800 a 1830.",
+			"collection": "Los textos editados son principalmente cartas, pero también incluyen otros manuscritos de importancia literaria y/o científica para la actividad intelectual en Berlín en los años 1800."
+		},
+		"ehri": {
+			"title": "Primeros testimonios sobre el Holocausto",
+			"desc": "Esta carpeta contiene el corpus de los primeros testimonios de víctimas del Holocausto."
+		},
+		"napoleon": {
+			"title": "Diario de las guerras napoleónicas",
+			"desc": "Esta carpeta contiene el corpus de un diario de guerra llevado durante las guerras napoleónicas."
+		},
+		"bruneau": {
+			"title": "Mi Guerra 1914-1918",
+			"desc": "Esta carpeta contiene el corpus de un relato de guerra de la Primera Guerra Mundial."
+		},
+		"guidelines": {
+			"title": "Documentación",
+			"desc": "Documentación sobre las reglas de codificación de corpus de egodocumentos y sobre la gestión y funcionamiento de la aplicación"
+		},
+		"cds": {
+			"title": "Correspondencia de Constance de Salm (1767-1845)",
+			"desc": "Este archivo contiene la edición digital de las cartas de Constance de Salm, así como el inventario y los índices de su correspondencia.",
+			"index": "Personas y lugares mencionados en la edición, así como palabras clave en alemán, presentados en tres índices distintos."
+		},
+		"nachlass": {
+			"title": "August Boeckh - Catálogo de sus manuscritos",
+			"desc": "Este archivo contiene el catálogo de los manuscritos y papeles de Boeckh.",
+			"index": "Organizaciones, personas, lugares y publicaciones mencionados en la edición, presentados en cuatro índices distintos. (Este enlace lleva al archivo de índices de los intelectuales berlineses, porque el contenido es el mismo).",
+			"collection": "Los textos aún no han sido transcritos y los metadatos son la única información disponible."
+		}},
+		"letters": {
+			"contents": "TABLA DE CONTENIDO",
+			"metadata": "METADATOS",
+			"help": "VISUALIZACIÓN",
+			"citation": "CITACIÓN",
+			"licence": "LICENCIA",
+			"previous": "PÁGINA ANTERIOR",
+			"next": "PÁGINA SIGUIENTE",
+			"by": "De ",
+			"in": "Escrita en ",
+			"previousletter": "Carta anterior",
+			"nextletter": "Carta siguiente"
+		},
+		"error": {
+			"title": "Se ha producido un error",
+			"message": "Se ha generado un error en la aplicación"
+		},
+		"facets": {
+			"date": "Fecha",
+			"from": "De",
+			"to": "A",
+			"place": "Lugar",
+			"conservation": "Institución de conservación",
+			"status": {
+				"title": "Estado",
+				"annotationinprogress": "Anotación en progreso",
+				"raw_transcription": "Transcripción bruta",
+				"final_publication": "Publicación final"},
+			"keyword": "Palabras clave",
+			"topic": "Tema"
+		},
+    "spec" : {
+    	"modules" : "Módulos",
+    	"attributes" : "Cambios de atributos",
+    	"except" : "Todos los elementos están incluidos excepto: ",
+    	"allincluded" : "Todos los elementos están incluidos.",
+    	"include" : "Se incluyen los siguientes elementos: ",
+    	"change" : "(elemento) ha sido modificado."
+    }
+	}

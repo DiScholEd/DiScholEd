@@ -1,0 +1,42 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/images" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.564+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="github.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.437+02:00" modified="2023-09-12T14:56:57.437+02:00" filename="github.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tei-publisher-logo-color.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.551+02:00" modified="2023-09-12T14:56:57.551+02:00" filename="tei-publisher-logo-color.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tei-publisher-logo-contrast-color.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.667+02:00" modified="2023-09-12T14:56:57.667+02:00" filename="tei-publisher-logo-contrast-color.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="wm_no_bg.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.822+02:00" modified="2023-09-12T14:56:57.822+02:00" filename="wm_no_bg.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="body-bg.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:56.649+02:00" modified="2023-09-12T14:56:56.649+02:00" filename="body-bg.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon-16.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:56.768+02:00" modified="2023-09-12T14:56:56.768+02:00" filename="favicon-16.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon-24.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:56.877+02:00" modified="2023-09-12T14:56:56.877+02:00" filename="favicon-24.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon-32.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:56.983+02:00" modified="2023-09-12T14:56:56.983+02:00" filename="favicon-32.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon-48.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.095+02:00" modified="2023-09-12T14:56:57.095+02:00" filename="favicon-48.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon-64.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.201+02:00" modified="2023-09-12T14:56:57.201+02:00" filename="favicon-64.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="favicon.ico" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:57.319+02:00" modified="2023-09-12T14:56:57.319+02:00" filename="favicon.ico" mimetype="image/vnd.microsoft.icon">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="about" filename="about"/>
+    <subcollection name="collection" filename="collection"/>
+    <subcollection name="corpus" filename="corpus"/>
+    <subcollection name="history" filename="history"/>
+    <subcollection name="index" filename="index"/>
+    <subcollection name="logo" filename="logo"/>
+</collection>

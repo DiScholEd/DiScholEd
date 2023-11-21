@@ -1,0 +1,54 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/fonts" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:13.04+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="Junicode-Italic.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:16.371+02:00" modified="2023-09-12T14:58:18.094+02:00" filename="Junicode-Italic.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Junicode-Bold.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:15.694+02:00" modified="2023-09-12T14:58:15.856+02:00" filename="Junicode-Bold.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Junicode-BoldItalic.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:15.136+02:00" modified="2023-09-12T14:58:16.67+02:00" filename="Junicode-BoldItalic.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Junicode.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:13.049+02:00" modified="2023-09-12T14:58:20.547+02:00" filename="Junicode.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="font.css" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.261+02:00" modified="2023-09-12T14:58:15.411+02:00" filename="font.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Bold.ttf" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:17.999+02:00" modified="2023-09-12T14:58:22.312+02:00" filename="Junicode-Bold.ttf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-BoldItalic.ttf" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.521+02:00" modified="2023-09-12T14:58:22.512+02:00" filename="Junicode-BoldItalic.ttf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Italic.ttf" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.342+02:00" modified="2023-09-12T14:58:22.706+02:00" filename="Junicode-Italic.ttf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode.ttf" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.564+02:00" modified="2023-09-12T14:58:23.022+02:00" filename="Junicode.ttf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Bold.eot" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.291+02:00" modified="2023-09-12T14:58:23.329+02:00" filename="Junicode-Bold.eot" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Bold.woff" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.129+02:00" modified="2023-09-12T14:58:23.511+02:00" filename="Junicode-Bold.woff" mimetype="application/font-woff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-BoldItalic.eot" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.71+02:00" modified="2023-09-12T14:58:23.66+02:00" filename="Junicode-BoldItalic.eot" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-BoldItalic.woff" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.268+02:00" modified="2023-09-12T14:58:23.832+02:00" filename="Junicode-BoldItalic.woff" mimetype="application/font-woff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Italic.eot" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.156+02:00" modified="2023-09-12T14:58:24.016+02:00" filename="Junicode-Italic.eot" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode-Italic.woff" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.46+02:00" modified="2023-09-12T14:58:24.27+02:00" filename="Junicode-Italic.woff" mimetype="application/font-woff">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode.eot" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.755+02:00" modified="2023-09-12T14:58:24.565+02:00" filename="Junicode.eot" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Junicode.woff" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.05+02:00" modified="2023-09-12T14:58:24.862+02:00" filename="Junicode.woff" mimetype="application/font-woff">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

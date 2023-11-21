@@ -1,0 +1,153 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Custom API",
+    "description": "This is the place to add your own path endpoints"
+  },
+  "servers": [
+    {
+      "description": "Endpoint for testing on localhost",
+      "url": "http://localhost:8080/exist/apps/discholed"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "cookieAuth": {
+        "type": "apiKey",
+        "name": "teipublisher.com.login",
+        "in": "cookie"
+      }
+    }
+  },
+  "paths": {
+    "/api/timeline_cds": {
+      "get": {
+        "summary": "Retrieve timeline data for cds",
+        "operationId": "custom:timeline_cds",
+        "parameters": [
+					{
+						"name": "corpus"
+					}
+				],
+        "responses": {
+          "200": {
+            "description": "Timeline data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timeline_pec": {
+      "get": {
+        "summary": "Retrieve timeline data for pec",
+        "operationId": "custom:timeline_pec",
+        "parameters": [
+					{
+						"name": "corpus"
+					}
+				],
+        "responses": {
+          "200": {
+            "description": "Timeline data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    ,
+    "/api/timeline_bi": {
+      "get": {
+        "summary": "Retrieve timeline data for bi",
+        "operationId": "custom:timeline_bi",
+        "parameters": [
+					{
+						"name": "corpus"
+					}
+				],
+        "responses": {
+          "200": {
+            "description": "Timeline data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timeline_ehri": {
+      "get": {
+        "summary": "Retrieve timeline data for ehri",
+        "operationId": "custom:timeline_ehri",
+        "parameters": [
+					{
+						"name": "corpus"
+					}
+				],
+        "responses": {
+          "200": {
+            "description": "Timeline data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timeline_nachlassprojekt": {
+      "get": {
+        "summary": "Retrieve timeline data for nachlassprojekt",
+        "operationId": "custom:timeline_nachlassprojekt",
+        "parameters": [
+					{
+						"name": "corpus"
+					}
+				],
+        "responses": {
+          "200": {
+            "description": "Timeline data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "cookieAuth": []
+    },
+    {
+      "basicAuth": []
+    }
+  ]
+}

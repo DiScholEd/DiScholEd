@@ -1,0 +1,27 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/images/collection" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:56:16.07+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="doc.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:16.079+02:00" modified="2023-09-12T14:56:16.079+02:00" filename="doc.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="constance_de_salm.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:16.328+02:00" modified="2023-09-12T14:56:16.328+02:00" filename="constance_de_salm.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Friedrich_Rochlitz.jpg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.008+02:00" modified="2023-09-12T14:56:17.008+02:00" filename="Friedrich_Rochlitz.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="chamisso.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.142+02:00" modified="2023-09-12T14:56:17.142+02:00" filename="chamisso.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Destournelles.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.283+02:00" modified="2023-09-12T14:56:17.283+02:00" filename="Destournelles.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="CharlesBruneau.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.45+02:00" modified="2023-09-12T14:56:17.45+02:00" filename="CharlesBruneau.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ehri_illustration.jpg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.585+02:00" modified="2023-09-12T14:56:17.585+02:00" filename="ehri_illustration.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="boeckh.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:17.733+02:00" modified="2023-09-12T14:56:17.733+02:00" filename="boeckh.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>History of the corpus</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/discholed.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #212D40;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+            
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+         <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu_nodownload.html"/>
+                        <app-toolbar class="toolbar" sticky="sticky">
+                            <a href="${app}/index.html?collection=pec" title="" data-template="pages:parse-params">
+                                <paper-icon-button icon="icons:folder-open"/>
+                            </a>
+                        </app-toolbar>
+                    </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                <div class="drawer-content">
+                <h1 class="main-title">History of the corpus</h1>
+                <ul>
+                    <li>
+                        <a href="#corpus">The corpus</a>
+                        <ul>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#conservation">Conservation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#authors">The authors </a>
+                        <ul>
+                            <li>
+                                <a href="#PEC">Paul d‘Estournelles de Constant</a>
+                            </li>
+                            <li>
+                                <a href="#NMB">Nicholas Murray Butler</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </aside>
+            
+            <div class="container">
+            <div>
+                <h2 id="corpus">The corpus</h2>
+                <div>
+                <h3 id="about">About</h3>
+                <p>The correspondance started in 1902 and continued for years but it is with the beginning of the war that it escalates. It became
+                    some kind of war report, regular and detailed, to expose it to Murray Butler. It also was a report for all Americans, since
+                    numerous letters of d’Estournelles were published in the press, mostly the New York Times.</p>
+                <p>This is a long and important correspondence : the first letter, numbered as such by d’Estournelles, is dated August 15th, 1914.
+                    Then, there are two last letters: the last one for the war itself and the last one for the correspondance in its entirety. The
+                    last one for the war is the 579th letter, dated October 24, 1919 and it marks the end of the war with the peace treaty signature
+                    and the official cease-fire. The last one of the correspondence is the 1500th letter, dated March 11th, 1924 (about two months
+                    before his death).</p>
+                <p>This correspondence provides a rather unique point of view on the war because Paul d’Estournelles has multiple and diverse roles in
+                    this war and they are all represented at some point: father, patriot, peace representative, non-combattant (due to his age,
+                    62-years-old) living in the homefront, in Paris, La Flèche or else, senator, politician or even aviation enthusiast.</p>
+                    </div>
+                    
+                <div>    
+                <h3 id="conservation">Conservation</h3>
+                <p>The correspondance is a part of the collection 12 J entitled <a href="http://archives.sarthe.fr/_depot_ad72/_depot_front/ead/serieJ/FRAD072_00000012J.pdf" title="Fonds d’Estournelles de Constant" target="_blank">“Fonds d’Estournelles de Constant”</a> and is stored in the boxes 381
+                    and 382 under the name : “« La guerre 1914-1918. Collection de mes lettres numérotées au président Butler » 1914-1924”. Those two
+                    boxes contain almost all the letters from the correspondence, except for part of the first volume (letters 1 to 100): the letters
+                    1 to 9bis are in the collection but sometimes incomplete; the letters 10 to 100 have disappeared and only exist in New York, where
+                    the other side of the correspondence, Butler’s letters, is preserved.</p>
+                <p>The collection is conserved at the departmental archives of La Sarthe, in the private archives series and it contains 471 articles
+                    (24,30ml), with a content going from 1776 to 1924. It is dedicated to several d’Estournelles de Constant: Claude Louis Balluet,
+                    Paul’s grandfather (12J 1-20), Louise de Constant, Paul’s grandmother (12J 21-60), Léonce Balluet d’Estournelles de Constant,
+                    Paul’s father (12J 61-65) and Paul d’Estournelles de Constant, whose archives are the more voluminous inside the collection (12J
+                    66-471). Paul d’Estournelles de Constant’ papers has been given in 1957 by his daugther, Mrs Le Guillard.</p>
+                    </div>
+                    </div>
+                <div>
+                <h2 id="authors">The authors</h2>
+                <div>
+                <h3 id="PEC">Paul d'Estournelles de Constant</h3>
+                <p>Paul Balluet, baron d’Estournelles de Constant de Rebecque was born on November 22nd, 1852 in La Flèche (Sarthe) and died on May
+                    15th, 1924 in Paris. He first worked as a diplomat, executing missions in Tunis, London or the Hague. In 1895, he was elected at
+                    the Chamber of Deputies and in 1904, he became Senator, a function he held until his death in 1924. During all his times as a
+                    representative, he worked for peace and conciliation between countries with England and with Germany, successfully for the first
+                    but not for the second, even though he defended it ardently, to the point of becoming suspicious for the French government. He
+                    helped create the Association for International Conciliation in 1905 that then developed divisions in USA, England, Italy, Japan
+                    and Germany. In 1909, d’Estournelles received the Nobel Peace Prize for his work during the Hague conference of 1899 and 1907 and
+                    the creation of the Permanent Court of Arbitration.</p>
+                <p>Paul d’Estournelles also instigated the extension of the Carnegie Endowment for International Peace in France and Europe and became
+                    president of the European bureau in 1911. It is through those relations that he worked for the enlistment of the USA in the war.
+                    It is also the reason for his meeting with Nicholas Murray Butler, which then turned into a friendship, as well as an intense
+                    correspondence from 1914 to his death in 1924.</p>
+                    </div>
+                    <div>
+                <h3 id="NMB">Nicholas Murray Butler</h3>
+                <p>Nicholas Murray Butler was born on April 2th, 1862 in Elizabeth (New Jersey) and died in December 7th, 1947 in New York City. He
+                    was a diplomat and a politician, as well as an educational administrator. He was president of Columbia University, from 1902 to
+                    1945 and he helped it become a major university. He also worked in other education projects such as the foundation of the
+                    Educational Review journal. As a politician, he was a member of the Republican party and tried to secure the Republican
+                    presidential nomination for Elihu Root (friend of him and future Nobel Peace Prize laureate) in 1916, and in 1920 and 1928 for
+                    himself. Those three attempts, however, were unsuccessful.</p>
+                <p>Like d’Estournelles, he dedicated his life to peace. He was president of the American branch of the Association for International
+                    Conciliation founded by d’Estournelles and was mostly engaged in the Carnegie Endowment for International Peace. He was
+                    influential in its creation, notably by giving $10M to Andrew Carnegie, he was head of the international education and
+                    communication section, he founded the European division and he held the presidency from 1925 to 1945. He too received the Nobel
+                    Peace Prize, in 1931, for his action of several decades in favour of peace at the Carnegie Endowment for International Peace.</p>
+            </div>
+            </div>
+            </div>
+            </section>
+        </main>
+            <footer class="version">
+                    App: v<span data-template="pages:version"/> /
+                    web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                </footer>
+             </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+                <div class="splash">
+            <h1 style="font-size: 150px;color: white; text-align: center;display: flex; justify-content: center; align-items: center; height: 80vh;">DiScholEd - Digital Scholarly Editions</h1>
+        </div>
+    </body>
+
+</html>

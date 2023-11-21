@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About the project</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/discholed.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #212D40;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu_nodownload.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                            <a href="${app}/index.html?collection=cds" title="" data-template="pages:parse-params">
+                                <paper-icon-button icon="icons:folder-open"/>
+                            </a>
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                <div class="drawer-content">
+                <h1 class="main-title">The project</h1>
+                <ul>
+                    <li>
+                                            <a href="#projectcontext">Context of the project</a>
+                                        </li>
+                        <li>
+                                            <a href="#dhi">Institution: German Historical Institute</a>
+                    </li>
+                    <li>
+                        <a href="#contributors">Contributors</a>
+                        <ul>
+                            <li>
+                                <a href="#transcription">Transcription</a>
+                            </li>
+                            <li>
+                                <a href="#encoding">Encoding</a>
+                            </li>
+                            <li>
+                                <a href="#interface">Interface</a>
+                            </li>
+                            <li>
+                                <a href="#supervision">Supervision</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                                            <a href="#resources">Resources</a>
+                                        </li>
+                </ul>
+                </div>
+            </aside>
+            
+            <div class="container">
+            <div>
+            <h2 id="projectcontext">Context of the project</h2>
+            <p/>
+            </div>
+            <div>
+            <h3 id="dhi">Institution: German Historical Institute</h3>
+            <p>The German Historical Institute is a historical research center located in the heart of Paris. It has its own research teams and offers various support to external researchers interested in the history of Western Europe, France or Germany. Its location, its international team and its network of partners make the IHA a transmitter of scientific cultures and one of the key players in international historiography. Establishing a dialogue between researchers of various origins, of different methodological approaches and of various ages is the central mission of the institute.</p>
+            </div>
+            <div>
+                        <h3 id="contributors">Contributors</h3>
+            <p>Many people contributed to this project that is based on a former project by the German Historical Institute in Paris (see link under “resources”).</p>
+            
+                        <ul>
+                        <li>Supervision</li>
+                                    </ul>
+                        <p>Anne Baillot, Mareike König</p>
+
+                        <ul>
+                                        <li id="transcription">Transcription</li>
+                                    </ul>
+                        <p>Sébastien Biay</p>
+
+                        <ul>
+                                        <li id="encoding">Encoding</li>
+                                    </ul>
+                        <p>Sébastien Biay</p>
+        </div>
+            <div>
+            <h3 id="resources">Resources</h3>
+            <p>Correspondence of Constance de Salm: 
+                <a href="https://constance-de-salm.de/ " target="_blank">https://constance-de-salm.de/</a>
+                    </p>
+            <p>German Historical Institute:
+                        <a href="https://www.dhi-paris.fr/" target="_blank">https://www.dhi-paris.fr/</a>
+                    </p>
+                    </div>
+            </div>
+            </section>
+            </main>
+            <footer class="version">
+                    App: v<span data-template="pages:version"/> /
+                    web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+                <div class="splash">
+            <h1 style="font-size: 150px;color: white; text-align: center;display: flex; justify-content: center; align-items: center; height: 80vh;">DiScholEd - Digital Scholarly Editions</h1>
+        </div>
+    </body>
+
+</html>

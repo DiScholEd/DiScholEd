@@ -1,0 +1,41 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.403+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:46:58.37+02:00" modified="2023-09-12T15:07:10.934+02:00" filename="repo.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="expath-pkg.xml" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.434+02:00" modified="2023-09-12T15:07:10.763+02:00" filename="expath-pkg.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="collection.xconf" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.412+02:00" modified="2023-09-12T15:07:11.086+02:00" filename="collection.xconf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="build.xml" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.442+02:00" modified="2023-09-12T15:07:10.637+02:00" filename="build.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name=".gitignore" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.474+02:00" modified="2023-09-12T14:44:07.474+02:00" filename=".gitignore" mimetype="application/octet-stream">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icon.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.501+02:00" modified="2023-09-12T15:07:10.506+02:00" filename="icon.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="controller.xql" skip="no" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.455+02:00" modified="2023-09-12T15:07:11.205+02:00" filename="controller.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="index.xql" skip="no" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.463+02:00" modified="2023-09-12T15:07:11.322+02:00" filename="index.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="package.json" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:07.484+02:00" modified="2023-09-12T15:07:11.439+02:00" filename="package.json" mimetype="application/json">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="post-install.xql" skip="no" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.508+02:00" modified="2023-09-12T15:07:11.504+02:00" filename="post-install.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pre-install.xql" skip="no" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:07.494+02:00" modified="2023-09-12T15:07:11.568+02:00" filename="pre-install.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="resources" filename="resources"/>
+    <subcollection name="templates" filename="templates"/>
+    <subcollection name="modules" filename="modules"/>
+    <subcollection name="data" filename="data"/>
+    <subcollection name="transform" filename="transform"/>
+</collection>

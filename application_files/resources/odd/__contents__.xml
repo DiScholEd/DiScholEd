@@ -1,0 +1,24 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/odd" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:08.734+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="teipublisher_odds.xsd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.838+02:00" modified="2023-09-12T14:54:32.467+02:00" filename="teipublisher_odds.xsd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="configuration.xml" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.834+02:00" modified="2023-09-12T14:54:29.272+02:00" filename="configuration.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="docx.odd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.815+02:00" modified="2023-09-12T14:54:29.623+02:00" filename="docx.odd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="teipublisher.odd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.796+02:00" modified="2023-09-12T14:54:33.491+02:00" filename="teipublisher.odd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="myodd.odd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.526+02:00" modified="2023-09-12T17:13:10.292+02:00" filename="myodd.odd" mimetype="text/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="annotations.odd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:11.512+02:00" modified="2023-09-12T14:54:29.444+02:00" filename="annotations.odd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tei_simplePrint.odd" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:08.743+02:00" modified="2023-09-12T14:54:31.203+02:00" filename="tei_simplePrint.odd" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

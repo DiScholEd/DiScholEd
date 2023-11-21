@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>About the project</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/discholed.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+                body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #212D40;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+            
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu_nodownload.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                            <a href="${app}/index.html?collection=pec" title="" data-template="pages:parse-params">
+                                <paper-icon-button icon="icons:folder-open"/>
+                            </a>
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+            <aside>
+                <div class="drawer-content">
+                <h1 class="main-title">The project</h1>
+                <ul>
+                    <li>
+                                            <a href="#projectcontext">Context of the project</a>
+                                        </li>
+                        <li>
+                                            <a href="#institutions">Institutions</a>
+                        <ul>
+                            <li>
+                                <a href="#lemans">University of Le Mans</a>
+                            </li>
+                            <li>
+                                <a href="#inria">Inria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contributors">Contributors</a>
+                        <ul>
+                            <li>
+                                <a href="#transcription">Transcription</a>
+                            </li>
+                            <li>
+                                <a href="#encoding">Encoding</a>
+                            </li>
+                            <li>
+                                <a href="#edition">Edition</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                                            <a href="#resources">Resources</a>
+                                        </li>
+                </ul>
+                </div>
+            </aside>
+            
+            <div class="container">
+            <div>
+            <h2 id="projectcontext">Context of the project</h2>
+            <p>The DAHN project is a project between Inria, Le Mans Université, and the EHESS, supported by the French Ministry of Higher Education, Research and Innovation. Its goal is to create a framework for digital scholarly editions of correspondence corpora. The first major corpus that was used as a basis for development work is the correspondence of Paul d’Estournelles de Constant, senator of the Sarthe department and 1909 Nobel Peace Prize. The platform was developed in two steps : first, we refreshed an already existing digital environment in order to host the new edition. Then, the d’Estournelles correspondence was added together with documentation on workflow and methodology. The initial editorial platform (hosting the Letters and Texts edition) was first developed between 2010 and 2016. It was based on a data model combining genetic encoding and a named entities-based approach. Though the focus is on a specific historical setting, it was conceived as a generic tool appliable to egodocuments dating from any modern or contemporary period. The new digital environment (based on the TEI Publisher application) was provided from 2021 onwards.</p>
+            </div>
+            <div>
+            <h2 id="institutions">Institutions</h2>
+            <div>
+            <h3 id="lemans">University of Le Mans</h3>
+            <p>The University of Le Mans is one of the institutions actively engaged in promoting open science and the development of digitals methodologies for litterature, languages and human sciences both in terms of education and research. As part of the DAHN project, the University of Le Mans offers both digital knowledge on scientific publications of ego documents (editorial interface, model data, standards expertise; laboratory 3L.AM) and historic expertise on the handling of epistolary sources (TEMOS laboratory). The University contribute locally to the implementation of the <a href="https://datacharter.hypotheses.org" target="_blank">Heritage Data Reuse Charter</a> and its international valuation.</p>
+            </div>
+            <div>
+            <h3 id="inria">Inria (<a href="http://files.inria.fr/almanach/index-en.html">ALMAnaCH team</a>)</h3>
+            <p>Inria develops both information extraction technologies, notably for texts, and a politic of open data management, positionning the ALMAnaCH team at the center of innovating work in Digital Humanities. As part of the DAHN project, Inria-Paris coordinates between the teams involved and develops digital methodologies to apply them to historical textual sources. Inria develops tools to enhance current technologies of automatic optical character recognition for handritten and printed texts and oversees the creation of a scientific and digital publishing pipeline, starting from the digital source and ending with its digital annotated XML-TEI edition, following standards layouts and suitable stylesheets.</p>
+            </div>
+            </div>
+            <div>
+            <h2 id="contributors">Contributors</h2>
+            <p>Many people contributed to this project, working on different tasks to present this edition of letters and texts
+                from Berlin intellectuals and make it available for the public. The team is composed of:</p>
+            <div>
+                <h3 id="transcription">Segmentation and Transcription</h3>
+                <p>Nadine Akhund, Alix Chagué, Floriane Chiffoleau, Stéphane Tison</p>
+            </div>
+            <div>
+                <h3 id="encoding">Encoding</h3>
+                <p>Floriane Chiffoleau</p>
+            </div>
+            <div>
+                <h3 id="edition">Edition management and supervision</h3>
+                <p>Anne Baillot, Laurent Romary</p>
+            </div>
+        </div>
+            <div>
+            <h2 id="resources">Resources</h2>
+            <p>Huma-Num Blog:
+                        <a href="https://paris-timemachine.huma-num.fr" target="_blank">Consortium Huma-Num Paris Time Machine</a>
+                    </p>
+            <p>Repository Github:
+                        <a href="https://github.com/FloChiff/DAHNProject" target="_blank">DAHNProject</a>
+                    </p>
+            <p>Hypotheses Blog:
+                        <a href="https://digitalintellectuals.hypotheses.org/category/dahn" target="_blank">Digital Intellectuals</a>
+                    </p>
+                    </div>
+            </div>
+            </section>
+            </main>
+            <footer class="version">
+                    App: v<span data-template="pages:version"/> /
+                    web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+                <div class="splash">
+            <h1 style="font-size: 150px;color: white; text-align: center;display: flex; justify-content: center; align-items: center; height: 80vh;">DiScholEd - Digital Scholarly Editions</h1>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,36 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/templates/pages" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:19.279+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="letters_ehri.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.488+02:00" modified="2023-09-12T14:50:16.654+02:00" filename="letters_ehri.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="letters.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.464+02:00" modified="2023-09-12T14:50:16.802+02:00" filename="letters.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="iiif_statsbibliothek.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.44+02:00" modified="2023-09-12T14:50:16.51+02:00" filename="iiif_statsbibliothek.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="document.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.417+02:00" modified="2023-09-12T14:44:19.417+02:00" filename="document.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="bibliographies.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.403+02:00" modified="2023-09-12T14:50:16.107+02:00" filename="bibliographies.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="iiif_slub.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.378+02:00" modified="2023-09-12T14:50:16.367+02:00" filename="iiif_slub.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="organizations.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.356+02:00" modified="2023-09-12T14:50:17.066+02:00" filename="organizations.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="places.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.337+02:00" modified="2023-09-12T14:50:17.342+02:00" filename="places.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="guidelines.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.32+02:00" modified="2023-09-12T14:50:16.234+02:00" filename="guidelines.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="persons.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.306+02:00" modified="2023-09-12T14:50:17.206+02:00" filename="persons.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="organizations_nomap.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.288+02:00" modified="2023-09-12T14:50:16.939+02:00" filename="organizations_nomap.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

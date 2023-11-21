@@ -1,0 +1,8 @@
+{
+  "name" : "discholed",
+  "version" : "1.0.0",
+  "description" : "Digital Scholarly Editions",
+  "dependencies" : {
+    "@teipublisher/pb-components" : "git+https://github.com/Samuel-Scalbert/pb-extension-template#master"
+  }
+}

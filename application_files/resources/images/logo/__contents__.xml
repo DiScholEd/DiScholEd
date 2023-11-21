@@ -1,0 +1,48 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/resources/images/logo" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:56:46.786+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="powered-by-editiones-color.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.276+02:00" modified="2023-09-12T14:56:47.276+02:00" filename="powered-by-editiones-color.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="icon.svg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.825+02:00" modified="2023-09-12T14:56:47.825+02:00" filename="icon.svg" mimetype="image/svg+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="TEIlogo-grayscale.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:46.794+02:00" modified="2023-09-12T14:56:46.794+02:00" filename="TEIlogo-grayscale.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="logo_appli.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:46.906+02:00" modified="2023-09-12T14:56:46.906+02:00" filename="logo_appli.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="LMU.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.027+02:00" modified="2023-09-12T14:56:47.027+02:00" filename="LMU.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="MESRI.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.15+02:00" modified="2023-09-12T14:56:47.15+02:00" filename="MESRI.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="jagiellonian-university-logo.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.403+02:00" modified="2023-09-12T14:56:47.403+02:00" filename="jagiellonian-university-logo.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Logo_Stadtmuseum_Berlin.jpg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.54+02:00" modified="2023-09-12T14:56:47.54+02:00" filename="Logo_Stadtmuseum_Berlin.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="logo_emmy_noether.jpg" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:47.699+02:00" modified="2023-09-12T14:56:47.699+02:00" filename="logo_emmy_noether.jpg" mimetype="image/jpeg">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Huberlin-logo.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.103+02:00" modified="2023-09-12T14:56:48.103+02:00" filename="Huberlin-logo.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="Logo_Staatsbibliothek_zu_Berlin.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.276+02:00" modified="2023-09-12T14:56:48.276+02:00" filename="Logo_Staatsbibliothek_zu_Berlin.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="heidelberg_university.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.41+02:00" modified="2023-09-12T14:56:48.41+02:00" filename="heidelberg_university.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="OLB_logo.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.53+02:00" modified="2023-09-12T14:56:48.53+02:00" filename="OLB_logo.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="HumaNum.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.649+02:00" modified="2023-09-12T14:56:48.649+02:00" filename="HumaNum.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ALMAnaCH_inria.png" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:56:48.774+02:00" modified="2023-09-12T14:56:48.774+02:00" filename="ALMAnaCH_inria.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

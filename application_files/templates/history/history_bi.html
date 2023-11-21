@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>History of the corpus</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+    <link rel="stylesheet" href="resources/css/discholed.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+            <style>
+               h1 {
+                    font-family: "Oswald",Verdana,"Helvetica",sans-serif;
+                    font-weight: 400 !important;
+                    line-height: 1.2;
+                }
+                
+                body {
+                    --pb-splash-image-size: 360px auto;
+                    --pb-splash-background-color: black;
+                }
+                
+                .splash {
+                    background-image: url("../../ressources/images/github.svg"); 
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
+                    opacity: 0;
+                    background-color: #212D40;
+                    background-position: center center;
+                    background-size: var(--pb-splash-image-size);
+                    background-repeat: no-repeat;
+                    transition: visibility 0s linear 300ms, opacity 300ms;
+                }
+                pb-page[unresolved]~.splash {
+                    visibility: visible;
+                    opacity: 1;
+                    transition: visibility 0s linear 0s, opacity 300ms;
+                }
+                
+                .main-title {
+                    font-size: 18px;
+                    margin: 3%;
+                    }
+                
+                .drawer-content a,
+                .drawer-content a:visited {
+                    color: #131821;
+                    text-decoration: none;
+                }
+                
+                .container {
+                margin: 8px 18px;
+                height: calc(100vh - 128px);
+                overflow: auto;
+                flex: 3 0;
+                }
+    
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                color: #131821;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            h3 {
+                text-decoration: underline;
+            }
+    
+            aside {
+                flex: 1 0;
+                min-width: 360px;
+                max-width: 480px;
+                margin-right: 16px;
+                background-color: #f8f9fa;
+            }
+            
+                .box {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    padding-left: 3em;
+                    padding-top: 3em;
+                }
+                
+                .box&gt;* {
+                    flex: 1 1 160px;
+                }
+                </style>
+        </custom-style>
+</head>
+
+<body>
+        <pb-page data-template="pages:pb-page" locales="resources/i18n/{{ns}}/{{lng}}.json" unresolved="unresolved">
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer slot="drawer" align="right">
+                <div class="drawer-content">
+                    <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                            <pb-lang name="lang" data-template="pages:languages"/>
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                <app-toolbar data-template="templates:include" data-template-path="templates/menu_nodownload.html"/>
+                <app-toolbar class="toolbar" sticky="sticky">
+                            <a href="${app}/index.html?collection=bi" title="" data-template="pages:parse-params">
+                                <paper-icon-button icon="icons:folder-open"/>
+                            </a>
+                        </app-toolbar>
+                </app-header>
+            
+            <main>
+            <section class="content-body">
+                <aside>
+                    <div class="drawer-content">
+                        <h1 class="main-title">History of this edition</h1>
+                        <ul>
+                            <li>
+                                <a href="#corpus">The edited texts in this collection</a>
+                                <ul>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#conservation">Conservation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#authors">The authors : the Berlin intellectuals</a>
+                                <ul>
+                                    <li>
+                                        <a href="#afvb">Adolf Friedrich von Buch</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ab">August Boeckh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#avc">Adelbert von Chamisso</a>
+                                    </li>
+                                    <li>
+                                        <a href="#hvc">Helmina von Chézy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#jae">Jean Albert Euler</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ihf">Immanuel Hermann Fichte</a>
+                                    </li>
+                                    <li>
+                                        <a href="#etah">E.T.A. Hoffmann</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ar">Adelheid Reinbold</a>
+                                    </li>
+                                    <li>
+                                        <a href="#dt">Dorothea Tieck</a>
+                                    </li>
+                                    <li>
+                                        <a href="#lt">Ludwig Tieck</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                <div class="container">
+                    <div>
+                        <h2 id="corpus">The edited texts in this collection</h2>
+                        <div>
+                            <h3 id="about">About</h3>
+                            <p>The texts edited here shed light on intellectual life in Berlin in the late 18th and early 19th century. They give
+                                insight on the genesis of German Romantic Literature, but also into idea and culture transfers such as they can be
+                                retraced in this politically and literary troubled period in the Prussian capital city.</p>
+                            <p>This edition is conceived to put at the core of the project the relationships between the many intellectual circles
+                                that were at work in Berlin around 1800: university, academies, societies, Salons, publishers, journals.</p>
+                        </div>
+                        <div>
+                            <h3 id="conservation">Conservation</h3>
+                            <p>The edited corpus is kept in multiple institutions. Most of the documents can be found at the Staatsbibliothek zu Berlin:
+                                Adolf Friedrich von Buch's letters to Louis de Beausobre, Adelbert von Chamisso's letters to Louis de La Foye, Jean
+                                Albert Euler's letters to Jean Henri Samuel Formey and Ludwig Tieck's letters to Friedrich von Raumer. Few documents
+                                are kept at the Humboldt University of Berlin, in the University archive or in the University Library. August Boeckh'
+                                letters to Rose Ludmilla Assing or Karl August Varnhagen von Ense are kept at the University Library of Jagiellonian
+                                University Kraków. Dorothea Tieck's letters to Friedrich von Uechtritz are kept in the Manuscript section of the
+                                Oberlausitzische Bibliothek der Wissenschaften Görlitz. Finally, one letter from the corpus is from the library of the
+                                University of Heidelberg.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="authors">The authors : the Berlin intellectuals</h2>
+                        <div>
+                            <h3 id="afvb">Adolf Friedrich von Buch</h3>
+                            <p>The Prussian landowner Adolf Friedrich von Buch, briefly envoy in Dresden, kept up a lively correspondence with the
+                                Academy member Louis de Beausobre for many years. The correspondence documents the scientific transfer between Berlin
+                                and the Prussian provinces in the late Enlightenment. In particular, it shows how the French language was cultivated
+                                by both the Prussian nobility and the Huguenot descendants and how it served not only scientific but also commercial
+                                purposes at the same time.</p>
+                        </div>
+                        <div>
+                            <h3 id="ab">August Boeckh</h3>
+                            <p>Classical philologist August Boeckh's (1785–1867) exceptional relevance for the history of science and science policy
+                                is generally accepted but only rarely researched. At the Prussian Academy of Science he supported scientific progress
+                                by initiating large-scale projects, e.g. the "Corpus Inscriptionum Graecarum”. From 1811 onwards he taught at the
+                                Berlin university and helped to shape its very structure as dean of the faculty for arts and humanities, rector of the
+                                university, and founder of the immensely successful philologic seminar (1812). Boeckh influenced greatly the
+                                development of the university in the first 50 years of its existence.</p>
+                        </div>
+                        <div>
+                            <h3 id="avc">Adelbert von Chamisso</h3>
+                            <p>Born in 1781, the son of French Revolution emigrants became a major German romantic writer. But it is not only his Peter Schlehmihl that made him famous: he was also an accomplished scientist and travelled the world as a botanist. Throughout his adult life and until his death in 1838, he remained faithful to the Prussian capital city.</p>
+                        </div>
+                        <div>
+                            <h3 id="hvc">Helmina von Chézy</h3>
+                            <p>Writer Helmina von Chézy (1783-1856) was born in Berlin as the daughter of writer Caroline von Klencke and
+                                granddaughter of poet Anna Louisa Karsch. Her life led her to Paris, Heidelberg, Dresden, Vienna, Munich, Baden-Baden
+                                and Geneva and from journalism to romantic poetry, travel accounts, novels, opera libretti and editions.</p>
+                            <p>Her numerous correspondence documents her attempts to nurture friendships and connections, which was made difficult by
+                                her unconventional way of life and her bold manners.</p>
+                        </div>
+                        <div>
+                            <h3 id="jae">Jean Albert Euler</h3>
+                            <p>Johann Euler (1734-1800) is the elder son of famous mathematician Leonhard Euler. An astronomer and mathematician himself, he became a member of the Berlin Academy of Sciences in 1754 and developed strong connections with the Huguenot community. His correspondence upon his return to Petersburg in the 1760s bears witness to his strong ties to the French-speaking inhabitants of the Prussian capital city.</p>
+                        </div>
+                        <div>
+                            <h3 id="ihf">Immanuel Hermann Fichte</h3>
+                            <p>Immanuel Hermann Fichte (1796-1879), the only child to Johann Gottlieb Fichte, studied philology and philosophy at the
+                                newly founded university of Berlin from 1812 to 1818 and later became professor of philosophy in Bonn und subsequently
+                                in Tübingen.</p>
+                        </div>
+                        <div>
+                            <h3 id="etah">E.T.A. Hoffmann</h3>
+                            <p>A romantic writer at heart, E.T.A. Hoffmann (1776-1822) was also a composer, a judge, a caricature drawer, a music critique... this multifacetted talent settled in Berlin about the time when his literary reputation gained traction and developed a unique, fantastic-prone novella genre. </p>
+                        </div>
+                        <div>
+                            <h3 id="ar">Adelheid Reinbold</h3>
+                            <p>Adelheid Reinbold is a forgotten poet who was active in the circle of Ludwig Tieck during the Dresden years. Tieck had
+                                taken her on as a mentor and published her works. After her untimely death, Tieck administered her literary legacy,
+                                which is now housed as the Krypton estate in the Ludwig Tieck estate at the Staatsbibliothek zu Berlin.</p>
+                        </div>
+                        <div>
+                            <h3 id="dt">Dorothea Tieck</h3>
+                            <p>Dorothea Tieck (1799-1841), Ludwig Tieck's eldest daughter, is known today for her translation work, which she did
+                                anonymously for her father from 1823. She played a major role in the Schlegel-Tieck translation of Shakespeare, but
+                                also produced translations from Spanish (including Cervantes). Since only a few of her handwritten documents have
+                                survived, the 33 letters to the poet friend and follower of Ludwig Tieck, Friedrich von Uechtritz (1800-1875), are an
+                                indispensable record of the life and thoughts of the deeply religious Dorothea Tieck from 1831 until her death.
+                                Uechtritz was one of the few close friends she could confide in, even in difficult times (after the death of her
+                                mother Amalie Alberti). Thus, she reported to him not only about journeys she had undertaken and Dresden theatre life,
+                                but also about her unofficial translation work - with the urgent request for secrecy.</p>
+                        </div>
+                        <div>
+                            <h3 id="lt">Ludwig Tieck</h3>
+                            <p>Ludwig Tieck (1773-1853) is known for the diversity and the density of his work. His long life contributed to this:
+                                born under the finishing Enlightenment he rebelled against, he dies at the service of the monarchical restauration
+                                that follows the 1848 Revolution. His work reflects this multiplicity of aspects, too.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+            <footer class="version">
+                    App: v<span data-template="pages:version"/> /
+                    web components: v<pb-version/> / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">Attribution 3.0 Unported (CC BY 3.0)</a>
+                </footer>
+                <footer class="box">
+                <div>
+                            <a href="https://www.dfg.de/foerderung/programme/einzelfoerderung/emmy_noether/index.html" target="_blank">
+                            <img src="resources/images/logo_emmy_noether.jpg" alt="Emmy Noether-Programm" width="100"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://staatsbibliothek-berlin.de/" target="_blank">
+                            <img src="resources/images/Logo_Staatsbibliothek_zu_Berlin.png" alt="Staatsbibliothek zu Berlin" width="175"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://www.hu-berlin.de/en" target="_blank">
+                            <img src="resources/images/Huberlin-logo.png" alt="Humboldt University of Berlin" width="100"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://en.uj.edu.pl/en_GB/start" target="_blank">
+                            <img src="resources/images/jagiellonian-university-logo.png" alt="Jagiellonian University" width="150"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://www.stadtmuseum.de/" target="_blank">
+                            <img src="resources/images/Logo_Stadtmuseum_Berlin.jpg" alt="Stiftung Stadtmuseum Berlin" width="150"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://www.goerlitzer-sammlungen.de/olb/" target="_blank">
+                            <img src="resources/images/OLB_logo.png" alt="Die Oberlausitzische Bibliothek der Wissenschaften" width="175"/>
+                        </a>
+                        </div>
+                    <div>
+                            <a href="https://www.uni-heidelberg.de/en" target="_blank">
+                            <img src="resources/images/heidelberg_university.png" alt="Heidelberg University" width="150"/>
+                        </a>
+                        </div>
+                    </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+                <div class="splash">
+            <h1 style="font-size: 150px;color: white; text-align: center;display: flex; justify-content: center; align-items: center; height: 80vh;">DiScholEd - Digital Scholarly Editions</h1>
+        </div>
+    </body>
+
+</html>

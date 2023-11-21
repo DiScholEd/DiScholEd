@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/templates/about" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:19.098+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="about_pec.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.156+02:00" modified="2023-09-12T14:50:31.552+02:00" filename="about_pec.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="about_bi.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.128+02:00" modified="2023-09-12T14:50:31.289+02:00" filename="about_bi.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="about_cds.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.108+02:00" modified="2023-09-12T14:50:31.421+02:00" filename="about_cds.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

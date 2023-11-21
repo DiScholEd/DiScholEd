@@ -1,0 +1,57 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/discholed/templates" version="1" owner="discholed" group="tei" mode="755" created="2023-09-12T14:44:18.901+02:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="about.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:04.131+02:00" modified="2023-09-12T14:50:04.131+02:00" filename="about.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index_bi.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:04.773+02:00" modified="2023-09-12T14:50:04.773+02:00" filename="index_bi.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index_cds.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:04.964+02:00" modified="2023-09-12T14:50:04.964+02:00" filename="index_cds.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index_ehri.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:05.1+02:00" modified="2023-09-12T14:50:05.1+02:00" filename="index_ehri.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index_nachlassprojekt.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:05.239+02:00" modified="2023-09-12T14:50:05.239+02:00" filename="index_nachlassprojekt.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index_pec.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:50:05.37+02:00" modified="2023-09-12T14:50:05.37+02:00" filename="index_pec.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.073+02:00" modified="2023-09-12T14:50:05.523+02:00" filename="index.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="error-page.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.06+02:00" modified="2023-09-12T14:50:04.637+02:00" filename="error-page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="documents.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.047+02:00" modified="2023-09-12T14:50:04.385+02:00" filename="documents.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="menu.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.022+02:00" modified="2023-09-12T14:50:05.811+02:00" filename="menu.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="toolbar_letters.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:19.003+02:00" modified="2023-09-12T14:50:06.257+02:00" filename="toolbar_letters.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="toolbar.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.991+02:00" modified="2023-09-12T14:50:06.384+02:00" filename="toolbar.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="search.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.974+02:00" modified="2023-09-12T14:50:06.128+02:00" filename="search.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="odd-editor.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.959+02:00" modified="2023-09-12T14:50:05.957+02:00" filename="odd-editor.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="api.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.95+02:00" modified="2023-09-12T14:50:04.263+02:00" filename="api.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="drawer.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.933+02:00" modified="2023-09-12T14:50:04.509+02:00" filename="drawer.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="menu_nodownload.html" skip="no" owner="discholed" group="tei" mode="644" created="2023-09-12T14:44:18.91+02:00" modified="2023-09-12T17:23:51.462+02:00" filename="menu_nodownload.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="about" filename="about"/>
+    <subcollection name="history" filename="history"/>
+    <subcollection name="pages" filename="pages"/>
+</collection>

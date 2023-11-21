@@ -1,0 +1,111 @@
+{
+    "title": {
+    	"official": "Digitale Editionen historischer Texte"
+    },
+    "browse": {
+    	"date": "Datum"
+    },
+    "menu": {
+    "start": "Home",
+    "about" : "Impressum",
+    "doc": "Dokumente",
+    "credit": "Bildnachweise",
+    "documentation": {
+    	"title": "Dokumentation",
+    	"encoding": "Kodierungsrichtlinien",
+    	"application": "Dokumentation der App",
+    	"teipublisher": "Dokumentation zu TEI Publisher"
+    },
+    "footer": "Diese TEIPublisher-basierte App wurde im Zusammenhang mit dem DAHN-Projekt entwickelt. In diesem Projekt geht es im Rahmen einer Zusammenarbeit zwischen Inria, der Le Mans Université und der EHESS um die Entwicklung eines Workflows zur wissenschaftlichen digitalen Edition von Archivsammlungen. Die Finanzierung erfolgt durch das französischen Ministerium für Forschung und Innovation. Diese App wird auf Humanum gehostet. "
+    },
+    "collection": {
+    	"title": "Sammlungen",
+    	"corpus" : {
+    		"title": "Edierte Texte",
+    		"desc" : "Ordner mit den Briefen und Texte aus dem Korpus"
+    	},
+    	"index" : {
+    		"title": "Index",
+    		"desc" : "In der Edition erwähnte Organisationen, Personen, Orte und Publikationen, in vier getrennten Indizes sortiert."
+    	},
+    	"history" : {
+    		"title": "Geschichte",
+    		"desc" : "Mehr über Inhalt und Geschichte der edierten Texte."
+    	},
+    	"about" : {
+    		"title": "Impressum",
+    		"desc" : "Näheres über mitwirkende Kooperationspartner, Drittmittelgeber, Editorinnen sowie Entwicklerinnen und Entwickler."
+    	},
+    	"pec" : {
+    		"title": "Korrespondenz von Paul d'Estournelles de Constant",
+    		"desc": "Diese Sammlung enthält die digitale Edition der Briefe von Paul d'Estournelles de Constant an Nicolas Murray-Butler (1914-1924)"
+    	},
+    	"intellectuelsberlinois" : {
+    		"title": "Briefe und Texte aus dem intellektuellen Berlin um 1800",
+    		"desc": "Diese Sammlung enthält die digitale Edition Briefe und Texte aus dem intellektuellen Berlin um 1800.",
+    		"collection": "Bei den edierten Texten handelt es sich vorrangig um Briefe. Ebenfalls präsentiert werden unterschiedliche Handschriften literarischer und/oder wissenschaftlicher Schriften, die für das Berliner intellektuelle Leben um 1800 von Bedeutung waren."
+    	},
+    	"guidelines" : {
+    		"title": "Dokumentation",
+    		"desc": "Dokumentation der Kodierungsrichtlinien sowie zur Verwaltung der TEI-Publisher-App."
+    	},
+    	"nachlass": {
+    		"title": "August Boeckh - Nachlassverzeichnis",
+    		"desc": "Diese Sammlung enthält den Katalog der Handschriften August Boeckhs.",
+    		"index": " Im Nachlassverzeichnis erwähnte Organisationen, Personen, Orte und Publikationen, in vier getrennten Indizes sortiert. Dieser Link führt zu den Indizes der digitalen Edition Briefe und Texte aus dem intellektuellen Berlin um 1800.",
+    		"collection": "Die Handschriften sind derzeit nicht vollständig transkribiert. Verfügbar sind ausschliesslich Metadaten bzw. Regesten."
+    	},
+    	"ehri": {
+    		"title": "Frühe Holocaust-Zeugnisse",
+    		"desc": "Diese Sammlung enthält Zeugnisse früher Holocaust-Opfer."
+    	},
+    	"bruneau": {
+    		"title": "Mein Krieg (1914-1918).",
+    		"desc": "Diese Sammlung enthält die digitale Edition des Typoskripts Mein Krieg (1914-1918) von Charles Bruneau."
+    	},
+    	"cds": {
+    		"title": "Korrespondenz von Constance de Salm (1767-1845)",
+    		"desc": "Diese Sammlung enthält die digitale Edition einer Auswahl von Briefen von und an die französische Schriftstellerin Constance de Salm sowie die Erschließungsdaten und Indices der gesamten Korrespondenz.",
+    		"index": "In der Edition erwähnte Personen und Orte sowie deutsche Schlagworte in drei getrennten Indizes sortiert."
+    	},
+    	"napoleon": {
+    		"title": "Ein Tagebuch im Napoleonischen Krieg",
+    		"desc": "Diese Sammlung enthält die digitale Edition des Tagebuchs von Friedrich Rochlitz von Oktober 1813."
+    	}
+    },
+    "letters": {
+    	"contents": "INHALTSVERZEICHNIS",
+    	"metadata": "METADATEN",
+    	"help": "ANZEIGE",
+    	"citation": "ZITIERWEISE",
+    	"licence": "LIZENZ",
+    	"previous": "VORHERIGE SEITE",
+    	"next": "NÄCHSTE SEITE",
+    	"by": "Von ",
+    	"in": "Verfasst in ",
+    	"previousletter" : "Vorheriger Brief",
+    	"nextletter" : "Nächster Brief"
+    },
+    "error": {
+    	"title": "Fehlermeldung",
+    	"message": "Entstehung eines Fehlers in der App"
+    },
+    "facets": {
+    	"date": "Datum",
+    	"from": "AbsenderIn",
+    	"to": "AdressatIn",
+    	"place": "Ort",
+    	"conservation": "Aufbewahrungsort",
+    	"status": "Status",
+    	"keyword": "Schlüsselwörter",
+    	"topic": "Thema"
+    },
+    "spec" : {
+    	"modules" : "Module",
+    	"attributes" : "Attributänderungen",
+    	"except" : "Alle Elemente sind enthalten, außer:",
+    	"allincluded" : "Alle Elemente sind enthalten.",
+    	"include" : "Die folgenden Elemente sind enthalten:",
+    	"change" : "(Element) wurde geändert."
+    }
+}
