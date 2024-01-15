@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: DiScholEd - Digital Scholarly Editions
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Floriane
+    family-names: Chiffoleau
+    orcid: 'https://orcid.org/0000-0003-4482-7897'
+  - given-names: Samuel
+    family-names: Scalbert
+  - given-names: Manon
+    family-names: Ovide
+url: >-
+  https://discholed.huma-num.fr/exist/apps/discholed/index.html
+keywords:
+  - digital scholarly editions
+  - historical manuscripts
+  - TEI Publisher
+license: CC-BY-4.0
